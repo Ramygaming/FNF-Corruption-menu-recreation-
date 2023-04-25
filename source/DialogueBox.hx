@@ -313,10 +313,10 @@ class DialogueBox extends FlxSpriteGroup
 				}
 			case 'bfglitch':
 				portraitLeft.visible = false;
-				if (!portraitRight2.visible)
+				if (!portraitRight3.visible)
 				{
-					portraitRight2.visible = true;
-					portraitRight2.animation.play('enter');
+					portraitRight3.visible = true;
+					portraitRight3.animation.play('enter');
 				}
 		}
 		if(nextDialogueThing != null) {
